@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/3dfcdec7a2.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="./css/sass.css" />
+
+		<title>portfolio</title>
+	</head>
+	<body>
+		<!-- NAV -->
+
+		<nav
+			id="navbar"
+			data-bs-theme="light"
+			class="navbar text-body bg-body navbar-expand-lg position-sticky top-0 w-100 py-3 z-1"
+		>
+			<div class="container">
+				<span class="navbar-brand mb-0 h1"
+					>jan
+					<div class="underline-logo"></div
+				></span>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link active" href="#">Home</a>
+						<a class="nav-link disabled" href="#aboutme">about me</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- HOME -->
+
+		<main>
+			<section id="home" class="home tex bg-light py-5">
+				<div class="container home-info">
+					<h1>my projects</h1>
+					<div class="underline"></div>
+					<div class="home-box">
+
+						<div
+						class="card border-primary text-center" data-aos="flip-up" data-aos-delay="100"
+						style="width: 18rem"
+					>
+						<img
+							src="./img/sitePrev/12.png"
+							class="card-img-top"
+							alt="preview of my site"
+						/>
+						<div class="card-body">
+							<h5 class="card-title text-center">gun-house</h5>
+							<p class="card-text">
+								Responsive site using bootstrap and some other third
+								party sources e.g "Animista".
+							</p>
+							<a
+								href="https://jansska1.github.io/strona/ "
+								target="_blank"
+								class="d-flex justify-content-center btn btn-primary"
+								>check out</a
+							>
+						</div>
+					</div>
+
+					</div>
+					
+					<p class="footnote text-center mt-3">*site is in polish</p>
+				</div>
+			</section>
+
+			<!-- HOME -> SOCIALS -->
+
+			<section class="socials py-5">
+				<div class="container">
+					<h2>socials</h2>
+					<div class="underline"></div>
+					<div class="row text-center">
+						<div class="contact-me">
+							<a
+								href="https://github.com/jansska1?tab=repositories"
+								target="_blank"
+								><i class="fa-brands fa-github mx-3"></i
+							></a>
+							<a
+								href="https://www.linkedin.com/in/jan-tuchu%C5%82ka-170685266/"
+								target="_blank"
+								><i class="fa-brands fa-linkedin-in mx-3"></i
+							></a>
+							<p class="email my-2">e-mail:</p>
+							<a class="email-contact" href="mailto:jansska1@gmail.com"
+								>jansska1@gmail.com</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+        <!-- FOOTER -->
+
+		<footer class="bg-dark text-light py-4 text-center">
+			<p class="copyright mb-0">
+				&copy;
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				jansska1
+			</p>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+			integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+			crossorigin="anonymous"
+		></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+        <script src="./js/aos.js"></script>   
+	</body>
+</html>
